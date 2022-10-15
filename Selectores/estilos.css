@@ -1,0 +1,20 @@
+.boton::before{
+    content: 'Pasa por encima';
+    font-size: xx-large;
+}
+
+.boton{
+    cursor: pointer;
+}
+
+.boton:hover{
+    color: white;
+    background-color: green;
+}
+
+.boton:active{
+    content: 'Hecho';
+    font-size: xx-large;
+    color: blue;
+    
+}  
