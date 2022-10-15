@@ -1,0 +1,15 @@
+.imagengaleria{
+    height: 300px;
+    width: 300px;
+    
+}
+.galeria{
+    flex-wrap: wrap;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+}
