@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <!-- Milton TG -->
+    <div class="contenedor">
+        <h2>Regístrate en los formularios</h2>
+        <div class="botones">
+            <button class="boton-google">
+                <picture>
+                    <img src="https://cdn-icons-png.flaticon.com/512/2991/2991148.png" alt="google">
+                    <span>Registrarse con Google</span>
+                </picture>
+            </button>
+            <button class="boton-twitter">
+                <picture>
+                    <img src="https://icons.veryicon.com/png/o/miscellaneous/share-308-box/twitter-180.png" alt="twitter">
+                </picture>
+            </button>
+        </div>
+        <div class="separador">
+            <hr>
+            <span>O</span>
+            <hr>
+        </div>
+        <form class="formulario" action="">
+            <div class="section-input">
+                <label for="nombre">
+                    <span>Nombre</span>
+                    <input type="text" class="nombre" id="nombre">
+                </label>
+                <label for="username">
+                    <span>Username</span>
+                    <input type="text" class="username" id="username">
+                </label>
+            </div>
+            <label for="email">
+                <span>Email</span>
+                <input type="email" class="email" id="email">
+            </label>
+            <label for="password">
+                <span>Password</span>
+                <input type="password" class="password" id="password" placeholder=" 6+ caracteres">
+            </label>
+            <label for="checkbox" class="checkbox-label">
+                <input type="checkbox" class="checkbox" id="checkbox">
+                <span>Acepta todos los terminos y condiciones.</span>
+            </label>
+            <button class="boton-enviar"> Crear Cuenta</button>
+        </form>
+    </div>
+</body>
+</html>
