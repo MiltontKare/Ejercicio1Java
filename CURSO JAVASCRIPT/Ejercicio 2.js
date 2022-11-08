@@ -10,7 +10,7 @@ const nacimientomio = [dia, mes + 1, anio];
 
 const librofavorito = {
   titulo: "The Witcher - The Time of Contempt ",
-  autor: "DynamicsCompressorNodwew",
+  autor: "Andrzej Sapkowski",
   fecha: 1995,
   url: "https://www.amazon.com/-/es/Andrzej-Sapkowski/dp/031645155X/ref=sr_1_8?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2UI4WHEV9JP6B&keywords=The+Witcher+book&qid=1667875191&sprefix=the+witcher+boo%2Caps%2C190&sr=8-8",
 };
